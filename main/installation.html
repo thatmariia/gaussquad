@@ -303,16 +303,15 @@ flake8<span class="w"> </span>src/
 </section>
 <section id="build-docs">
 <h3>Build docs<a class="headerlink" href="#build-docs" title="Link to this heading">¶</a></h3>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>docs
-make<span class="w"> </span>html
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sphinx-multiversion<span class="w"> </span>docs/source<span class="w"> </span>docs/build/html
 </pre></div>
 </div>
 </section>
 <section id="view-docs">
 <h3>View docs<a class="headerlink" href="#view-docs" title="Link to this heading">¶</a></h3>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>open<span class="w"> </span>docs/build/html/index.html<span class="w">  </span><span class="c1"># On macOS</span>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>open<span class="w"> </span>docs/build/html/main/index.html<span class="w">  </span><span class="c1"># On macOS</span>
 <span class="c1"># or:</span>
-python<span class="w"> </span>-m<span class="w"> </span>http.server<span class="w"> </span>--directory<span class="w"> </span>docs/build/html
+python<span class="w"> </span>-m<span class="w"> </span>http.server<span class="w"> </span>--directory<span class="w"> </span>docs/build/html/main
 </pre></div>
 </div>
 <p>Then open your browser and go to <code class="docutils literal notranslate"><span class="pre">http://localhost:8000/</span></code>.</p>
