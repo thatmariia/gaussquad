@@ -13,4 +13,4 @@ You can cite all versions of the package using the following BibTeX entry:
 }
 ```
 
-If you need a version-specific citation, you can find it on [Zenodo](doi.org/10.5281/zenodo.15468025).
+If you need a version-specific citation, you can find it on [Zenodo](https://doi.org/10.5281/zenodo.15468025).
