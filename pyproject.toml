@@ -7,9 +7,15 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "gaussquad"
 description = "Compute Gauss quadrature nodes and weights for arbitrary weight functions."
-version = "0.1.0"
+version = "1.0.0"
 readme = "README.md"
 license = { text = "Apache-2.0" }
+keywords = ["gauss quadrature", "numerical integration", "golub-welsch"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent"
+]
 requires-python = ">=3.13"
 authors = [{ name = "Mariia Steeghs-Turchina" }]
 dependencies = [
@@ -17,9 +23,14 @@ dependencies = [
   "scipy>=1.15.0"
 ]
 
+[project.urls]
+"Homepage" = "https://github.com/thatmariia/gaussquad"
+"Documentation" = "https://thatmariia.github.io/gaussquad"
+"Source" = "https://github.com/thatmariia/gaussquad"
+
 [project.optional-dependencies]
-dev = ["pytest", "flake8", "black"]
-docs = ["sphinx", "myst-parser", "furo"]
+dev = ["pytest", "flake8", "black", "build", "twine"]
+docs = ["sphinx", "myst-parser", "furo", "sphinx-multiversion"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
