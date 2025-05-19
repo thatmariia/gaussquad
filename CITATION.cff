@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "gaussquad: Gauss quadrature for arbitrary weights on finite intervals"
+version: 0.1.0
+doi: 10.5281/zenodo.1234567  # ← Update this after the first Zenodo release
+authors:
+  - family-names: Steeghs-Turchina
+    given-names: Mariia
+    orcid: https://orcid.org/0000-0000-0000-0000  # Optional but recommended
+license: Apache-2.0
+repository: https://github.com/thatmariia/gaussquad
+keywords:
+  - gauss quadrature
+  - numerical integration
+  - golub-welsch
+  - python

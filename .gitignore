@@ -1,0 +1,46 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.pyo
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+
+# Build artifacts
+build/
+dist/
+*.manifest
+*.spec
+*.egg-link
+pip-wheel-metadata/
+
+# Test & coverage
+.pytest_cache/
+.coverage
+.coverage.*
+.cache/
+htmlcov/
+
+# Sphinx docs
+docs/_build/
+docs/build/
+docs/.doctrees/
+
+# Editor / OS files
+*.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDEs
+.idea/
+.vscode/
+
+# Tools
+.ruff_cache/
+.mypy_cache/
