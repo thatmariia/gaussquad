@@ -13,11 +13,16 @@ extensions = [
     'sphinx.ext.napoleon',  # Support for NumPy and Google style docstrings
     'sphinx.ext.viewcode',  # Add links to highlighted source code,
     'myst_parser',          # Markdown parser
+    'sphinx_multiversion',  # Support for versioning
 ]
 myst_enable_extensions = [
     "dollarmath",   # Enables $...$ syntax
     "amsmath",      # Enables LaTeX-style math blocks with \[ \] and environments
 ]
+
+smv_tag_whitelist = r"^v\d+\.\d+.*$"   # Matches tags like v1.0.0, v2.1.1, etc.
+smv_branch_whitelist = r"^main$"
+smv_remote_whitelist = r"^origin$"
 
 templates_path = ['_templates']
 exclude_patterns = []
@@ -25,6 +30,12 @@ exclude_patterns = []
 
 html_theme = "furo"
 html_static_path = ['_static']
+
+html_context = {
+    "display_github": True,
+    "display_gitlab": False,
+    "versions": [],  # sphinx-multiversion will populate this
+}
 
 html_theme_options = {
     "footer_icons": [

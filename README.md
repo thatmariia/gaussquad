@@ -35,9 +35,7 @@ pip install git+https://github.com/thatmariia/gaussquad.git
 
 ## Usage
 
-You can integrate
-$ \int_0^5 w(x) \cdot x^2 dx $
-with $ w(x) = \exp(-x) $.
+You can integrate *x^2 * w(x)* from 0 to 5 with a weight function *w(x)=-exp(-x)*:
 
 ```python
 import numpy as np
@@ -67,14 +65,14 @@ source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -e ".[dev,docs]"
 ```
 
-| Command | Description |
-| ------- | ----------- |
-| `pytest` | Run tests |
-| `flake8 src/` | Check code style |
-| `black --check src/` | Check code style |
-| `cd docs && make html` | Build docs |
-| `open docs/build/html/index.html` | View docs (macOS) |
-| `python -m http.server --directory docs/build/html` | View docs (all OS) |
+| Command                                                  | Description |
+|----------------------------------------------------------| ----------- |
+| `pytest`                                                 | Run tests |
+| `flake8 src/`                                            | Check code style |
+| `black --check src/`                                     | Check code style |
+| `sphinx-multiversion docs/source docs/build/html`        | Build docs |
+| `open docs/build/html/main/index.html`                   | View docs (macOS) |
+| `python -m http.server --directory docs/build/html/main` | View docs (all OS) |
 
 ---
 
