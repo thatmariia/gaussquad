@@ -11,7 +11,7 @@ pip install gaussquad
 ```bash
 pip install git+https://github.com/thatmariia/gaussquad.git
 ```
-> **Requirements:** Python 3.8 or newer, numpy, scipy
+> **Requirements:** Python 3.13 or newer, numpy, scipy
 
 ---
 

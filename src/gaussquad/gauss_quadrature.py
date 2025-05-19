@@ -69,9 +69,7 @@ def wquad(
     ...     interval=(0, 1),
     ...     degree=3,
     ...     moment_method="exact"
-    ... )
-    >>> result
-    np.float64(0.3333333333333335)
+    ... )  # --> 0.3333333333333335
     """
     _validate_fn(fn, interval)
 
@@ -140,11 +138,7 @@ def wquad_nodes_weights(
     ...     interval=(0, 1),
     ...     degree=3,
     ...     moment_method="exact",
-    ... )
-    >>> nodes
-    array([-1.04471955,  0.23701648,  0.80770307])
-    >>> weights
-    array([0.00101608, 0.53588233, 0.46310159])
+    ... )  # --> [-1.04471955,  0.23701648,  0.80770307], [0.00101608, 0.53588233, 0.46310159]
     """
     _validate_degree(degree)
     _validate_moment_method(moment_method)

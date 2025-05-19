@@ -6,7 +6,7 @@
 gaussquad docs
 =====================================
 
-Compute Gauss quadrature nodes and weights for arbitrary weight functions on finite intervals using the
+A mini-package to compute Gauss quadrature nodes and weights for arbitrary weight functions on finite intervals using the
 Golub–Welsch algorithm:
 
 * `Golub & Welsch (original publication, 1969) <https://doi.org/10.1090/S0025-5718-69-99647-1>`_

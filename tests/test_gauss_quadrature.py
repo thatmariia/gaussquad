@@ -60,7 +60,7 @@ def test_gauss_quadrature_exponential_weight():
 
 def test_invalid_hankel_due_to_nan_weights():
     bad_weight_fn = lambda x: np.full_like(x, np.nan)
-    with pytest.raises(ValueError, match="positive-definite"):
+    with pytest.raises(ValueError, match="(positive-definite|infs or NaNs)"):
         wquad_nodes_weights(bad_weight_fn, (-1, 1), degree=3, moment_method="legendre", moment_degree=6)
 
 

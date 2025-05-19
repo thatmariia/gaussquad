@@ -1,6 +1,6 @@
 # gaussquad
 
-Compute Gauss quadrature nodes and weights for arbitrary weight functions on finite intervals using the
+A mini-package to compute Gauss quadrature nodes and weights for arbitrary weight functions on finite intervals using the
 Golub–Welsch algorithm.
 
 > Based on:  
@@ -31,7 +31,7 @@ From GitHub:
 ```bash
 pip install git+https://github.com/thatmariia/gaussquad.git
 ```
-> **Requirements:** Python 3.8 or newer, numpy, scipy
+> **Requirements:** Python 3.13 or newer, numpy, scipy
 
 ## Usage
 
