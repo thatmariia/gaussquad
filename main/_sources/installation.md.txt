@@ -47,7 +47,7 @@ flake8 src/
 
 ### Build docs
 ```bash
-sphinx-multiversion docs/source docs/build/html
+sphinx-multiversion docs docs/build/html
 ```
 
 ### View docs
