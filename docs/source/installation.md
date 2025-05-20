@@ -47,13 +47,14 @@ flake8 src/
 
 ### Build docs
 ```bash
-sphinx-multiversion docs/source docs/build/html
+cd docs
+make html
 ```
 
 ### View docs
 ```bash
-open docs/build/html/main/index.html  # On macOS
+open docs/build/html/index.html  # On macOS
 # or:
-python -m http.server --directory docs/build/html/main
+python -m http.server --directory docs/build/html
 ```
 Then open your browser and go to `http://localhost:8000/`.

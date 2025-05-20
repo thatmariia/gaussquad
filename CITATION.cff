@@ -1,8 +1,7 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+message: "If you use this software, please cite it. DOIs for specific versions are on Zenodo: https://doi.org/10.5281/zenodo.15468025."
 title: "gaussquad: Gauss quadrature for arbitrary weights on finite intervals"
-version: 1.0.0
-doi: 10.5281/zenodo.1234567  # ← Update this after the first Zenodo release
+doi: 10.5281/zenodo.15468025
 authors:
   - family-names: Steeghs-Turchina
     given-names: Mariia

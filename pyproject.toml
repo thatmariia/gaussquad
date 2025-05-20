@@ -29,8 +29,8 @@ dependencies = [
 "Source" = "https://github.com/thatmariia/gaussquad"
 
 [project.optional-dependencies]
-dev = ["pytest", "flake8", "black", "build", "twine"]
-docs = ["sphinx", "myst-parser", "furo", "sphinx-multiversion"]
+dev = ["pytest", "flake8", "black", "build"]
+docs = ["sphinx", "myst-parser", "sphinx-book-theme"]
 
 [tool.setuptools.packages.find]
 where = ["src"]

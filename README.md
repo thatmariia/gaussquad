@@ -7,7 +7,7 @@ Golub–Welsch algorithm.
 > - [Golub & Welsch (1969)](https://doi.org/10.1090/S0025-5718-69-99647-1)  
 > - [Technical report (1967)](http://i.stanford.edu/pub/cstr/reports/cs/tr/67/81/CS-TR-67-81.pdf)
 
-Documentation is available at [thatmariia.github.io/gaussquad]()
+Documentation is available at [thatmariia.github.io/gaussquad](https://thatmariia.github.io/gaussquad)
 
 [![GitHub Pages](https://img.shields.io/badge/view-docs-blue?logo=github)](https://thatmariia.github.io/gaussquad)
 
@@ -35,7 +35,7 @@ pip install git+https://github.com/thatmariia/gaussquad.git
 
 ## Usage
 
-You can integrate *x^2 * w(x)* from 0 to 5 with a weight function *w(x)=-exp(-x)*:
+You can integrate *x^2 * w(x)* from 0 to 5 with a weight function *w(x)=exp(-x)*:
 
 ```python
 import numpy as np
@@ -65,14 +65,23 @@ source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -e ".[dev,docs]"
 ```
 
-| Command                                                  | Description |
-|----------------------------------------------------------| ----------- |
-| `pytest`                                                 | Run tests |
-| `flake8 src/`                                            | Check code style |
-| `black --check src/`                                     | Check code style |
-| `sphinx-multiversion docs/source docs/build/html`        | Build docs |
-| `open docs/build/html/main/index.html`                   | View docs (macOS) |
-| `python -m http.server --directory docs/build/html/main` | View docs (all OS) |
+| Command | Description |
+| ------- | ----------- |
+| `pytest` | Run tests |
+| `flake8 src/` | Check code style |
+| `black --check src/` | Check code style |
+| `cd docs && make html` | Build docs |
+| `open docs/build/html/index.html` | View docs (macOS) |
+| `python -m http.server --directory docs/build/html` | View docs (all OS) |
+
+---
+
+## Citation
+
+If you use this package in your research, please cite it 
+using the information under "Cite this repository" on the right side of the GitHub page.
+
+If you need a version-specific citation, you can find it on [Zenodo](https://doi.org/10.5281/zenodo.15468025).
 
 ---
 

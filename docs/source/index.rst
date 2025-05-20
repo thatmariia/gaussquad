@@ -19,6 +19,7 @@ Golub–Welsch algorithm:
    installation
    usage
    api
+   citation
 
 
 Indices and tables
