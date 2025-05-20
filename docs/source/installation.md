@@ -1,6 +1,6 @@
 # Installation
 
-## Install from PyPI (when available)
+## Install from [PyPI](https://pypi.org/project/gaussquad/)
 
 ```bash
 pip install gaussquad

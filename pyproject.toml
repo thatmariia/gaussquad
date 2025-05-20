@@ -7,7 +7,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "gaussquad"
 description = "Compute Gauss quadrature nodes and weights for arbitrary weight functions."
-version = "1.0.0"
+version = "1.0.1"
 readme = "README.md"
 license = { text = "Apache-2.0" }
 keywords = ["gauss quadrature", "numerical integration", "golub-welsch"]

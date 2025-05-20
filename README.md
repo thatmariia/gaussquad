@@ -20,7 +20,7 @@ Documentation is available at [thatmariia.github.io/gaussquad](https://thatmarii
 
 ## Installation
 
-From PyPI (when released):
+From [PyPI](https://pypi.org/project/gaussquad/):
 
 ```bash
 pip install gaussquad
